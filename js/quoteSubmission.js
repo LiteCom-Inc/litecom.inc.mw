@@ -1,5 +1,5 @@
 
-  const scriptURL = "https://script.google.com/macros/s/AKfycbz8J8vQxKuOZI1TmTSI1dxpJpmoiUWuI6C5en0GajSv5y89lzOVPkHpbjXp0SqYp6bTwA/exec";
+  const scriptURL = "https://script.google.com/macros/s/AKfycbwzjlvstBCVGiP8DEXXtuuCYYqdOBLKbeOTenk9OcXHHYolUKF05Zadi2x5eHbww048mQ/exec";
 
   const form = document.getElementById("quoteForm");
 
