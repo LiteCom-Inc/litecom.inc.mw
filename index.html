@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Litecom Technologies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <style>
+    /* Brand Colors */
+    :root {
+      --primary-blue: #0d6efd;
+      --army-green: #4b6f44;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    /* Hover dropdown */
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+
+    .hero {
+      background: linear-gradient(
+        rgba(13, 110, 253, 0.9),
+        rgba(13, 110, 253, 0.9)
+      );
+      color: white;
+      padding: 100px 0;
+    }
+
+    .section-padding {
+      padding: 70px 0;
+    }
+
+    .icon-box {
+      border: 1px solid #e9ecef;
+      padding: 30px;
+      border-radius: 8px;
+      transition: 0.3s;
+      height: 100%;
+    }
+
+    .icon-box:hover {
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      transform: translateY(-5px);
+    }
+
+    .litepay {
+      background-color: #f8f9fa;
+      border-left: 6px solid var(--army-green);
+    }
+
+    footer {
+      background-color: #0b5ed7;
+      color: white;
+    }
+
+    footer a {
+      color: #dbe7ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="#">Litecom</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#litecomNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="litecomNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Services</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Web & Mobile Development</a></li>
+            <li><a class="dropdown-item" href="#">Electronics & IoT Solutions</a></li>
+            <li><a class="dropdown-item" href="#">Networking & Security</a></li>
+            <li><a class="dropdown-item" href="#">ICT Supplies & Accessories</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">LitePay</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Overview</a></li>
+            <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-primary ms-lg-3" href="pages/quote.html">Get a Quote</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold">
+      Building Smart Digital & ICT Solutions for Businesses
+    </h1>
+    <p class="lead mt-3">
+      Web, mobile, networking, electronics, and secure technology solutions designed for modern organizations.
+    </p>
+    <div class="mt-4">
+      <a href="#" class="btn btn-light btn-lg me-2">Our Services</a>
+      <a href="#" class="btn btn-outline-light btn-lg">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section-padding">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Our Services</h2>
+      <p class="text-muted">What we do best</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="icon-box">
+          <h5 class="fw-bold">Software & Digital Solutions</h5>
+          <p>
+            Web and mobile application development tailored to your business needs.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="icon-box">
+          <h5 class="fw-bold">Electronics & IoT Solutions</h5>
+          <p>
+            Smart systems, automation, and electronic solutions for monitoring and control.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="icon-box">
+          <h5 class="fw-bold">Networking & Security</h5>
+          <p>
+            LAN/WLAN setup, network maintenance, and CCTV installation.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="icon-box">
+          <h5 class="fw-bold">ICT Supplies & Accessories</h5>
+          <p>
+            Reliable ICT hardware, stationery, and mobile accessories.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="#" class="btn btn-outline-primary">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="section-padding bg-light">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-md-3">✔ Skilled ICT & systems professionals</div>
+      <div class="col-md-3">✔ Practical, affordable solutions</div>
+      <div class="col-md-3">✔ Focus on reliability & security</div>
+      <div class="col-md-3">✔ Local understanding, global standards</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LITEPAY ================= 
+<section class="section-padding litepay">
+  <div class="container">
+    <h2 class="fw-bold">Introducing LitePay <span class="text-muted">(Coming Soon)</span></h2>
+    <p class="mt-3">
+      LitePay is an interoperable digital payment platform being developed by Litecom to simplify and unify electronic payments across banks and mobile money services.
+    </p>
+    <a href="#" class="btn btn-success">Learn More</a>
+  </div>
+</section>
+-->
+<!-- ================= HOW WE WORK ================= -->
+<section class="section-padding">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">How We Work</h2>
+    <div class="row g-4">
+      <div class="col-md-3">Consultation</div>
+      <div class="col-md-3">Design</div>
+      <div class="col-md-3">Implementation</div>
+      <div class="col-md-3">Support</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section-padding bg-primary text-white text-center">
+  <div class="container">
+    <h2 class="fw-bold">Ready to work with Litecom?</h2>
+    <p class="mt-2">Let’s build a solution that fits your business.</p>
+    <a href="#" class="btn btn-light btn-lg">Contact Us</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="pt-4 pb-3">
+  <div class="container text-center">
+    <p class="mb-1">© Litecom Technologies. All Rights Reserved.</p>
+    <small>Malawi | ICT & Digital Solutions</small>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
