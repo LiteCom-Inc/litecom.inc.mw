@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbxFvvNEnMFP4RRAwJOTqsb7SDcWesG_ZYyX2ww_CWX8Z3j-cyeU1YBoYQydF_nk55wxaw/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbwp1g8lw-P6fnvYSpjRhyZEQS3wSo46SSZfwDcJ3x-NLVQhGtOEpcv-IFOejDEJ6kQAiw/exec";
 
 const form = document.getElementById("quoteForm");
 
