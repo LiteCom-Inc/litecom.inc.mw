@@ -1,7 +1,8 @@
+import cors from 'cors';
+
 const scriptURL = "https://script.google.com/macros/s/AKfycbwp1g8lw-P6fnvYSpjRhyZEQS3wSo46SSZfwDcJ3x-NLVQhGtOEpcv-IFOejDEJ6kQAiw/exec";
 
 const form = document.getElementById("quoteForm");
-const cors = require('cors');
 app.use(cors({
   origin : "https://script.google.com/macros/s/AKfycbwp1g8lw-P6fnvYSpjRhyZEQS3wSo46SSZfwDcJ3x-NLVQhGtOEpcv-IFOejDEJ6kQAiw/exec",
 }))
